@@ -40,6 +40,8 @@ var Stopwatch = function (_React$Component) {
           _this2.setState({
             timePassedInMilliSeconds: timePassedInMilliSeconds
           });
+
+          startTime = stopTime;
         }, 250);
       }
     }

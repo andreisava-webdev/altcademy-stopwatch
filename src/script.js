@@ -23,6 +23,8 @@ class Stopwatch extends React.Component {
         this.setState({
           timePassedInMilliSeconds,
         });
+
+        startTime = stopTime;
       }, 250);
     }
   }
